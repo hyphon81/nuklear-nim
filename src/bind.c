@@ -7,6 +7,7 @@
 #define NK_INCLUDE_FONT_BAKING
 #define NK_IMPLEMENTATION
 
+#include <stdarg.h>
 #include "nuklear/nuklear.h"
 
 extern int nk_filter_my(const struct nk_text_edit *box, nk_rune unicode) {
